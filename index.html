@@ -10,16 +10,16 @@
     <link rel="stylesheet" href="./custom.css" />
     <title>Testimonials grid Project Bootstrap</title>
   </head>
-  <body class="bg-light py-5">
+  <body class="bg-light h-100 py-5">
     <main class="container">
+      <div class="position-absolute top-50 start-50 translate-middle"></div>
       <div class="row ">
         <!-- Daniel Card - 2 column and up -->
-        <div class="col-8 row">
+        <div class="col-12 col-lg-8 row ">
           <div class="row">
-            
-          <section class="col-8">
-            <div class="card h-60 bg-primary text-white rounded-4 shadow" >
-              <div class="card-body p-4">
+          <section class="col-12 col-lg-8 ">
+            <div class="card h-60 bg-primary text-white rounded-4 shadow-lg" >
+              <div class="card-body p-">
                 <div class="d-flex align-items-center mb-3">
                   <img src="./images/image-daniel.jpg" class="rounded-circle me-3" style="width:50px;" alt="Daniel Clifford">
                   <div>
@@ -44,8 +44,8 @@
           </section>
   
           <!-- Jonathan Card -->
-          <section class="col-4">
-            <div class="card h-90 bg-secondary text-white rounded-4 shadow">
+          <section class="col-12 col-lg-4">
+            <div class="card h-90 bg-secondary text-white rounded-4 shadow-lg">
               <div class="card-body p-3">
                 <div class="d-flex align-items-center mb-1">
                   <img src="./images/image-jonathan.jpg" class="img-fluid rounded-circle me-3" style="width:50px;" alt="Jonathan Walters">
@@ -54,7 +54,7 @@
                     <p class="text-white-50 mb-0 small fw-bold">Verified Graduate</p>
                   </div>
                 </div>
-                <h5 class="card-title mb-3 fw-bolder fs-5">The team was very supportive and kept me motivated</h5>
+                <h5 class="card-title mb-5 fw-bolder fs-5">The team was very supportive and kept me motivated</h5>
                 <p class="card-text text-white-50 fw-normal lh-base ">
                   " I started as a total newbie with virtually no coding skills. I now
                   work as a mobile engineer for a big company. This was one of the best
@@ -63,12 +63,12 @@
             </div>
           </section>
         </div>
+        
         <div class="row gy-2">
-
           <!-- Jeanette Card -->
-       <section class="col-4 ">
-         <div class="card h-100 bg-white mt-0 rounded-4 shadow">
-           <div class="card-body p-4 ">
+          <section class="col-12 col-lg-4 ">
+           <div class="card h-100 bg-white mt-0 rounded-4 shadow">
+            <div class="card-body p-4 ">
              <div class="d-flex align-items-center mb-3">
                <img src="./images/image-Jeanette.jpg" class="rounded-circle me-3" width="50" alt="Jeanette Harmon">
                <div>
@@ -83,8 +83,8 @@
            </div>
          </div>
        </section>
-       <!-- Patrick Card - Takes 2 columns on medium screens and up -->
-       <section class="col-8 ">
+       <!-- Patrick Card - Takes 2 columns up -->
+       <section class="col-12 col-lg-8 ">
         <div class="card h-100 bg-dark text-white rounded-4 shadow">
           <div class="card-body p-4">
             <div class="d-flex align-items-center mb-3">
@@ -110,11 +110,9 @@
       </div>
     </section>
         </div>
-
-        
         <!-- Kira Card - 1 column towards right -->
-        <section class="col-3">
-          <div class="card h-100 bg-white rounded-4 shadow">
+        <section class="col-12 col-lg-3">
+          <div class="card h-100 bg-white rounded-4 shadow-lg">
             <div class="card-body p-4">
               <div class="d-flex align-items-center mb-3">
                 <img src="./images/image-kira.jpg" class="img-fluid me-3 rounded-circle" style="width:50px" alt="Kira Whittle">
@@ -139,18 +137,8 @@
             </div>
           </div>
         </section>
-      </div>
-        <div>
-        </div>
-
-         
-
-          
-        </div>
-       
-       
+      </div> 
     </main>
-
     <!-- Bootstrap JS script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>

@@ -1,7 +1,7 @@
 /* Custom Css */
 .custom-padding{
   padding:10px;
-  background-color:Grey 200: hsl(0, 0%, 81%) ;
+  background-color: Purple 300: hsl(264, 82%, 80%) ;
 }
 body {
   font-family: 'Barlow Semi Condensed', sans-serif;
@@ -15,16 +15,15 @@ body {
 }
 
 .bg-primary::before {
-  /* content: ""; */
+  content:"";
   background-image: url("./images/bg-pattern-quotation.svg");
   background-repeat: no-repeat;
-  position:relative;
-  top: 0;
-  right: 24px;
-  width: 104px;
-  height: 102px;
-  z-index: 0;
-  opacity: 0.7;
+  position: absolute;
+  top: 2;
+  margin-right:100px;
+  width: 100px;
+  height: 100px;
+  opacity: 0.5;
 }
 
 .bg-secondary {
@@ -49,7 +48,7 @@ body {
   line-height: 1.5;
 }
 
-/* Responsive adjustments */
+/* Responsive web page adjustments*/
 @media (max-width: 767.98px) {
   .container {
     padding: 1.5rem;
@@ -63,20 +62,14 @@ body {
     margin-bottom: 1.5rem;
   }
 }
-
-/* .rounded-4 {
-  border-radius: 0.75rem !important;
-} */
-
-/* Ensure images have proper sizing */
-.rounded-circle {
-  border: 2px solid rgba(255, 255, 255, 0.3);
-}
+  .rounded-circle {
+    border: 2px solid rgba(255, 255, 255, 0.3);
+  }
 
 
 @mobile screen and (min-width: 375px) {
   body {
-    background-color: Grey 400: hsl(224, 10%, 45%);
-    font-size: 22px;
+    background-color: Grey 500: hsl(217, 19%, 35%);
+    font-size: 1.37rem;
   }
 }
